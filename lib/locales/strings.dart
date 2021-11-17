@@ -1,0 +1,65 @@
+import 'package:get/get.dart';
+
+class StringTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'uz_UZ': {
+          'name': 'имя ',
+          'phoneNumber': 'номер телефона',
+          'verify': 'Верификация',
+          'weHaveSentVerifyCode':
+              'Мы отправили одноразовый пароль на ваш номер',
+          'enterId': 'Введите ID',
+          'clinets': 'Клиенты',
+          'readyToServe': 'Вы готовы принимать заказы ?',
+          'continue': 'Продолжить',
+          'skip': 'Пропустить',
+          'acceptClients': 'Принять заказы',
+          'queue': 'Очередь',
+          'timeArrival': 'Дата посещения',
+          'transportType': 'Тип автомобиля',
+          'washingType': 'Тип  мойки',
+          'price': 'Цена  услугу',
+          'accept': 'принимать',
+          'cancel': 'отменить',
+          'forToday': 'За сегодня',
+          'forWeek': 'За неделю',
+          'myClients': 'Мои заказы',
+          'verified': 'Подтверждено',
+          'orders': 'Заказы',
+          'currentOrders': 'Текущий заказы',
+          'accept2': 'Принять',
+          'cancel2': 'Отклонить',
+          'order2': 'Заявка',
+        },
+        'ru_RU': {
+          'name': 'имя ',
+          'phoneNumber': 'номер телефона',
+          'verify': 'Верификация',
+          'weHaveSentVerifyCode':
+              'Мы отправили одноразовый пароль на ваш номер',
+          'enterId': 'Введите ID',
+          'clinets': 'Клиенты',
+          'readyToServe': 'Вы готовы принимать заказы ?',
+          'continue': 'Продолжить',
+          'skip': 'Пропустить',
+          'acceptClients': 'Принять заказы',
+          'queue': 'Очередь',
+          'timeArrival': 'Дата посещения',
+          'transportType': 'Тип автомобиля',
+          'washingType': 'Тип  мойки',
+          'price': 'Цена  услугу',
+          'accept': 'принимать',
+          'cancel': 'отменить',
+          'forToday': 'За сегодня',
+          'forWeek': 'За неделю',
+          'myClients': 'Мои заказы',
+          'verified': 'Подтверждено',
+          'orders': 'Заказы',
+          'currentOrders': 'Текущий заказы',
+          'accept2': 'Принять',
+          'cancel2': 'Отклонить',
+          'order2': 'Заявка',
+        }
+      };
+}
